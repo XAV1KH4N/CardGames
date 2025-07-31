@@ -1,9 +1,9 @@
 
 public abstract class Card {
-    private int rank;
-    private int suite; 
-    public Card(int r, int s) {
-        this.rank = r;
-        this.suite = s;
+    private IRank rank;
+    private ISuite suite; 
+    public Card(IRank rank, ISuite suite) {
+        this.rank = rank;
+        this.suite = suite;
     }
 }
